@@ -2,7 +2,7 @@
 // Plugin Name:			Paper Journal Online Issues
 // Plugin URI:			https://github.com/jclwilson/pj-online-issues-tax
 // Description:			Lets you link posts by online issue number, requires the Advanced Custom Fields (ACF) plugin to be installed.
-// Version:				1.0.0
+// Version:				1.0.1
 // Author:				Jacob Charles Wilson
 // Author URI:			https://jacobcharleswilson.com
 // License:				GNU General Public License v2
@@ -31,12 +31,12 @@ $labels = array(
     'separate_items_with_commas' => __( 'Separate Online Issues with commas' ),
     'add_or_remove_items' => __( 'Add or remove Online Issues' ),
     'choose_from_most_used' => __( 'Choose from the most used Online Issues' ),
-    'menu_name' => __( 'Online Issue' ),
+    'menu_name' => __( 'Online Issues' ),
   ); 
  
 // Now register the non-hierarchical taxonomy like tag
  
-  register_taxonomy('contributor','post',array(
+  register_taxonomy('online-issues','post',array(
     'hierarchical' => false,
     'labels' => $labels,
     'show_ui' => true,
