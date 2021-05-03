@@ -1,5 +1,5 @@
-# pj-online-issues-tax
-This plugin allows online issues to be tagged &amp; listed on the Paper Journal site.
+# pj-digital-issues-tax
+This plugin allows digital issues to be tagged &amp; listed on the Paper Journal site.
 
 ## Requirements
 
